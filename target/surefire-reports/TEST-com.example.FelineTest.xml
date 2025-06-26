@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.FelineTest" time="0.007" tests="27" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.FelineTest" time="0.001" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GE"/>
     <property name="sun.boot.library.path" value="/Users/twicy/Library/Java/JavaVirtualMachines/corretto-21.0.6/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/twicy/qa_java/target/surefire/surefirebooter-20250625101704762_3.jar /Users/twicy/qa_java/target/surefire 2025-06-25T10-17-04_728-jvmRun1 surefire-20250625101704762_1tmp surefire_0-20250625101704762_2tmp"/>
+    <property name="sun.java.command" value="/Users/twicy/qa_java/target/surefire/surefirebooter-20250627021233590_3.jar /Users/twicy/qa_java/target/surefire 2025-06-27T02-12-33_549-jvmRun1 surefire-20250627021233590_1tmp surefire_0-20250627021233590_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/twicy/qa_java/target/test-classes:/Users/twicy/qa_java/target/classes:/Users/twicy/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/twicy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/twicy/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/twicy/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/Users/twicy/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/Users/twicy/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/twicy/qa_java/target/surefire/surefirebooter-20250625101704762_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/twicy/qa_java/target/surefire/surefirebooter-20250627021233590_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-LTS"/>
     <property name="user.name" value="twicy"/>
@@ -56,31 +56,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testEatMeatCallsGetFood[0]" classname="com.example.FelineTest" time="0.001"/>
-  <testcase name="testFelineGetFoodInvalidType[0]" classname="com.example.FelineTest" time="0.001"/>
-  <testcase name="testGetKittens[0]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testAnimalGetFoodWithInvalidType[0]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testGetKittensDefault[0]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testFelineEatMeat[0]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testGetFamily[0]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testEatMeatDelegatesToGetFood[0]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testEatMeat[0]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testEatMeatCallsGetFood[1]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testFelineGetFoodInvalidType[1]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testGetKittens[1]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testAnimalGetFoodWithInvalidType[1]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testGetKittensDefault[1]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testFelineEatMeat[1]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testGetFamily[1]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testEatMeatDelegatesToGetFood[1]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testEatMeat[1]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testEatMeatCallsGetFood[2]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testFelineGetFoodInvalidType[2]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testGetKittens[2]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testAnimalGetFoodWithInvalidType[2]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testGetKittensDefault[2]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testFelineEatMeat[2]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testGetFamily[2]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testEatMeatDelegatesToGetFood[2]" classname="com.example.FelineTest" time="0.0"/>
-  <testcase name="testEatMeat[2]" classname="com.example.FelineTest" time="0.0"/>
+  <testcase name="testFelineGetFoodInvalidType" classname="com.example.FelineTest" time="0.0"/>
+  <testcase name="testGetKittensDefault" classname="com.example.FelineTest" time="0.0"/>
+  <testcase name="testGetFamily" classname="com.example.FelineTest" time="0.001"/>
+  <testcase name="testEatMeatDelegatesToGetFood" classname="com.example.FelineTest" time="0.0"/>
+  <testcase name="testEatMeat" classname="com.example.FelineTest" time="0.0"/>
 </testsuite>

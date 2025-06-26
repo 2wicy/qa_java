@@ -21,12 +21,18 @@ public class CatTest {
     }
 
     @Test
-    public void testGetFood() throws Exception {
+    public void testGetFoodReturnsExpectedList() throws Exception {
         Cat cat = new Cat(feline);
-        List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
-        when(feline.eatMeat()).thenReturn(expectedFood);
+        List<String> expected = List.of("Животные", "Птицы", "Рыба");
+        when(feline.eatMeat()).thenReturn(expected);
+        assertEquals(expected, cat.getFood());
+    }
 
-        assertEquals(expectedFood, cat.getFood());
+    @Test
+    public void testGetFoodCallsEatMeatOnce() throws Exception {
+        Cat cat = new Cat(feline);
+        when(feline.eatMeat()).thenReturn(List.of("Животные"));
+        cat.getFood();
         verify(feline, times(1)).eatMeat();
     }
 
